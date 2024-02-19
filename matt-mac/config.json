@@ -1,0 +1,40 @@
+{
+    "controls": [
+        {"GPIO": "GP0", "control": "led"},
+        {"GPIO": "GP7", "control": "program"}
+    ],
+    "leds": [
+        "GP1",
+        "GP2",
+        "GP3",
+        "GP4",
+        "GP5",
+        "GP6"
+    ],
+    "keys": [
+        {"GPIO": "GP16", "repeating": false, "sequence": [
+            ["press", "1"],
+            ["release", "1"]
+        ]},
+        {"GPIO": "GP17", "repeating": true, "sequence": [
+            ["press", "2"],
+            ["release", "2"]
+        ]},
+        {"GPIO": "GP18", "repeating": true, "sequence": [
+            ["press", "3"],
+            ["release", "3"]
+        ]},
+        {"GPIO": "GP19", "repeating": true, "sequence": [
+            ["press", "4"],
+            ["release", "4"]
+        ]},
+        {"GPIO": "GP20", "repeating": true, "sequence": [
+            ["press", "5"],
+            ["release", "5"]
+        ]},
+        {"GPIO": "GP21", "repeating": false, "sequence": [
+            ["press", "6"],
+            ["release", "6"]
+        ]}
+    ]
+}
